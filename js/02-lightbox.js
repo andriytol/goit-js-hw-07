@@ -10,7 +10,7 @@ const createGallery = (pictures) => {
 
 gallery.innerHTML = createGallery(galleryItems);
 
-var lightbox = new SimpleLightbox('.gallery a', {
+const lightbox = new SimpleLightbox('.gallery a', {
     captionType: 'attr',
     captionsData: 'alt',
     captionPosition: 'bottom',
